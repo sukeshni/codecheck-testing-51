@@ -1,5 +1,5 @@
 build:
-- mvn package
+- pip3 install -r requirements.txt
 env:
-  APP_COMMAND: target/bin/theapp
+  APP_COMMAND: python3 index.py
 test: mocha
